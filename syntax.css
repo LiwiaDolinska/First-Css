@@ -1,19 +1,14 @@
-/* Targeting elements / tags */
-h2{
-    font-size: 24px;
+body{
+    color: red;
 }
 
-#content-header{
-font-size: 18px;
-color: red;
+div{
+    color: blue;
+}p{
+    color: green;
 }
 
-
-span{
-display: block;
-color: blue;
-}
-
-.deck{
-     color: red;
+a{
+    color: yellow;
+    text-decoration: underline;
 }
