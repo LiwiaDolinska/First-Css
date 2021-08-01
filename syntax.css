@@ -1,8 +1,7 @@
-article.featured-content{
-    background: red;
-
+body{
+    text-transform: uppercase;
 }
 
-div.featured-content{
-    background: blue;
+body > p{
+    text-transform: none;
 }
