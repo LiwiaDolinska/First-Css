@@ -1,27 +1,90 @@
-.button{
-    display: block;
-    width: 100px;
-    padding: 12px;
-    border: 1px solid #77aaaa;
-    font-family: Arial;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #ffff;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 4px;
-    background: #aadddd;
-    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
+body{
+    font-family: arial;
+    margin: 0;
+    background-color: #eee;
+
 }
 
-.button:hover{
-    background: #77aaaa;
-    background: -moz-linear-gradient(botton, #aadddd 0%, #77aaaa 100%);
-    background: -webkit-linear-gradient(botton, #aadddd 0%, #77aaaa 100%);
-    background: linear-gradient(botton, #aadddd 0%, #77aaaa 100%);
-    
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
 
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+#main-navigation a{
+       color: #fff;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-size: 14px;
+       padding: 6px;
+
+}
+
+#main-navigation a.current{
+         background: #8f746c;
+         border-radius: 4px;
+}
+ 
+#lead-banner img{
+    width: 100%;
+}
+
+#shop{
+    margin: 30px 0;
+    text-align: center;
+
+}
+
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: black;
+
+}
+
+#shop span.price{
+    display: block;
+    font-size: 38px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+#shop a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0;
+    border: 2px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+}
+
+#shop a.add-to-bag:hover{
+    color: #fff;
+    background: #8f746c;
+}
+
+#footer-banner img{
+    width: 100%;
 }
